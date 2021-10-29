@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imgback {
+    background-color: black;
+}
+
+.section1 {
+    position: relative;
+    height: 40rem;
+    width: 100%;
+}
+
+.s1img img {
+    position: relative;
+    width: 100%;
+    height: 40rem;
+    opacity: 0.5;
+}
+
+.s1navheading,
+.s1navflex ul,
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.s1navflex ul {
+    gap: 2rem;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.s1fnavflex li {
+    font-size: 1rem;
+}
+
+.s1navheading {
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    margin: 0;
+}
+
+nav {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 13rem;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    text-decoration-style: none;
+}
+
+.sec1h1 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.overlay {
+    position: absolute;
+    left: 6rem;
+    top: 0rem;
+}
+
+.s1navheading h2 {
+    color: white;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+
+.sec1h1 h1 {
+    color: white;
+    margin-top: 9rem;
+}
+
+.sec1h1 p {
+    margin-bottom: 1.7rem;
+}
+
+.sec1button a {
+    text-decoration: none;
+    color: white;
+}
+
+.sec1button {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.sec1button button {
+    padding: 0.5rem;
+    background: transparent;
+    border-radius: 0.4rem;
+    border: solid 2px gray;
+}
+
+.sec1button button:hover {
+    background-color: gray;
+    color: black;
+    transition: 1s;
+}
+
+.sec1h1 h1 {
+    letter-spacing: 0.6rem;
+    word-spacing: 0.4rem;
+    font-size: 3.8rem;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.sec1h1 p {
+    line-height: 5rem;
+    font-size: 1.2rem;
+    word-spacing: 0.6rem;
+    color: white;
+}
+
+.s1h1 span {
+    font-weight: 600;
+}
